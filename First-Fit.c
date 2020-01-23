@@ -35,7 +35,7 @@ int main()
 		for(j = 0; j < bno; j++){
 			
 			//Detect the size of block is larger than the size of process.   
-			if(bsize[j]>psize[i])
+			if(bsize[j]>=psize[i])
 			{
 				
 				//Allocate the process to block
